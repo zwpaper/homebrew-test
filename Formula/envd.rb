@@ -8,6 +8,12 @@ class Envd < Formula
   version "0.2.0-alpha.14"
   license "Apache-2.0"
 
+  bottle do
+    root_url "https://github.com/zwpaper/homebrew-test/releases/download/envd-0.2.0-alpha.14"
+    sha256 cellar: :any_skip_relocation, big_sur:      "93ec9818e44e7c14bcb7e7809c3cd2413faac9b100e959305e801a90b84414b3"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "6630f1fdb9863f18c8c8ff17d6fa4f2f97a897305d8321e1c6fa5252d06a964f"
+  end
+
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/tensorchord/envd/releases/download/v0.2.0-alpha.14/envd_0.2.0-alpha.14_Darwin_arm64"
