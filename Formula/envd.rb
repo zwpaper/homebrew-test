@@ -10,7 +10,7 @@ class Envd < Formula
 
   bottle do
     root_url "https://github.com/zwpaper/homebrew-test/releases/download/envd-0.2.0-alpha.14"
-    sha256 cellar: :any_skip_relocation, arm64_monterey:     "93ec9818e44e7c14bcb7e7809c3cd2413faac9b100e959305e801a90b84414b3"
+    sha256 cellar: :any_skip_relocation, monterey:     "93ec9818e44e7c14bcb7e7809c3cd2413faac9b100e959305e801a90b84414b3"
     sha256 cellar: :any_skip_relocation, big_sur:      "93ec9818e44e7c14bcb7e7809c3cd2413faac9b100e959305e801a90b84414b3"
     sha256 cellar: :any_skip_relocation, x86_64_linux: "6630f1fdb9863f18c8c8ff17d6fa4f2f97a897305d8321e1c6fa5252d06a964f"
   end
